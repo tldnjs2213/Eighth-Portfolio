@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Eighth-Portfolio/static/css/main.35e6bdfd.css",
+    "main.js": "/Eighth-Portfolio/static/js/main.065db498.js",
+    "index.html": "/Eighth-Portfolio/index.html",
+    "main.35e6bdfd.css.map": "/Eighth-Portfolio/static/css/main.35e6bdfd.css.map",
+    "main.065db498.js.map": "/Eighth-Portfolio/static/js/main.065db498.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35e6bdfd.css",
+    "static/js/main.065db498.js"
+  ]
+}

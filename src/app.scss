@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	list-style: none;
+	background-color: transparent;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	cursor: pointer;
+}
+.mainContainer {
+	width: 30vw;
+	height: 50vh;
+
+	header.headerNavbarContainer {
+		width: 100%;
+		height: 15%;
+		font-size: 2rem;
+		padding: 1rem;
+		background-color: blanchedalmond;
+		border-top-left-radius: 1.5vw;
+		border-top-right-radius: 1.5vw;
+		box-shadow: 0.1vw 0.1vw 0.1vw lightgray;
+		i.iNavbarLogo {
+			color: green;
+			margin-right: 0.5rem;
+		}
+		span.spanNavbarName {
+			font-size: 2rem;
+		}
+		span.spanTotalCount {
+			display: inline-block;
+			text-align: center;
+			font-size: 2rem;
+			width: 2.5rem;
+			height: 2.5rem;
+			line-height: 2.5rem;
+			margin-left: 0.2rem;
+			background-color: green;
+			color: white;
+			border-radius: 50%;
+		}
+	}
+	.habitContainer {
+		width: 100%;
+		height: 85%;
+		padding: 0.5rem;
+		border-bottom-left-radius: 1.5vw;
+		border-bottom-right-radius: 1.5vw;
+		background-color: #fff;
+		box-shadow: 0.1vw 0.1vw 0.1vw lightgray;
+		form.formHabitAddContainer {
+			width: 100%;
+			height: 10%;
+			display: flex;
+			justify-content: center;
+			input.inputHabitAdd {
+				width: 70%;
+				font-size: 2rem;
+				margin-right: 1rem;
+				border: 0.1vw solid black;
+				border-radius: 0.5vw;
+			}
+			button.buttonHabitAdd {
+				width: 10%;
+				height: 100%;
+				font-size: 1.5rem;
+				background-color: green;
+				color: white;
+			}
+		}
+		button.buttonHabitReset {
+			height: 10%;
+			font-size: 1.5rem;
+			padding: 0.2rem 1rem;
+			background-color: green;
+			color: white;
+		}
+		ul.ulHabitsContainer {
+			width: 100%;
+			height: 80%;
+			font-size: 2.5rem;
+			padding: 0.5rem;
+			list-style: none;
+			overflow-x: auto;
+			li.liHabitContainer {
+				width: 100%;
+				display: flex;
+				.divHabitContainer {
+					padding-left: 3vw;
+					display: flex;
+					justify-content: flex-start;
+					width: 65%;
+					span.spanHabitName {
+						font-size: 2rem;
+						padding-right: 1.2vw;
+					}
+					span.spanHabitCount {
+						display: inline-block;
+						text-align: center;
+						font-size: 2rem;
+						width: 2.5rem;
+						height: 2.5rem;
+						line-height: 2.5rem;
+						margin-left: 0.2rem;
+						margin-right: 0.5rem;
+						background-color: darkseagreen;
+						color: white;
+						border-radius: 50%;
+					}
+				}
+				.divButtonContainer {
+					width: 35%;
+					display: flex;
+					justify-content: space-around;
+					button {
+						font-size: 2.5rem;
+						margin: 0 0.1rem;
+						background-color: transparent;
+					}
+					button:hover {
+						opacity: 0.8;
+					}
+					button.buttonPlusContainer {
+						color: goldenrod;
+					}
+					button.buttonMinusContainer {
+						color: goldenrod;
+					}
+					button.buttonDeleteContainer {
+						font-size: 2rem;
+						color: darkred;
+					}
+				}
+			}
+		}
+	}
+}
